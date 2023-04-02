@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "History Domain Counter",
+    "version": "1.0",
+    "description": "履歴からドメインのトータル数を取得して、バッジに表示します。",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Sample Extension"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "history"
+    ]
+}
